@@ -1,0 +1,28 @@
+/* Header.css */
+.header {
+    padding-bottom: 15px;
+    border-bottom: 2px solid #f0f0f0;
+    text-align: center;
+  }
+  
+  .header h1 {
+    color: #333;
+    margin-bottom: 8px;
+    font-size: 32px;
+  }
+  
+  .date {
+    color: #666;
+    font-style: italic;
+    font-size: 16px;
+  }
+  
+  @media (max-width: 768px) {
+    .header h1 {
+      font-size: 28px;
+    }
+    
+    .date {
+      font-size: 14px;
+    }
+  }
